@@ -1,45 +1,78 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marvel Universe</title>
-    <style>
-       h1{
+    <title>Marvel Heroes</title>
+    <!-- ...existing code... -->
+<style>
+    h1 {
         background-color: aqua;
         text-align: center;
-        
-       }
-       h2{
-        background-color: red;
+    }
+
+    .heroes {
+        display: flex;
+        gap: 20px;
+    }
+
+    .hero {
+        width: 300px;
         text-align: center;
+    }
 
-       }
-       img{
-        margin-left: 0px;
-        height: 850px;
-        width: 800px;
-       }
+    .hero img {
+        width: 300px;
+        height: 400px;
+        margin: 0;
+    }
 
-       button{
-        background-color: blue;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-       }
-
-    </style>
+    .hero span {
+        display: block;
+    }
+    strong{
+        background-color: rgb(242, 227, 17);
+    }
+</style>
 </head>
 <body>
-    <h1 <center title="Marvel Universe" tabindex="1" ><center> Welcome to the Marvel Universe</center></h1>
-    <hr>
-    <h2 tabindex="2"> Iron Man </center></h2>
-    <p><center>Tony Stark is a brilliant inventor and one of Earth's mightiest heroes.</center></p>
-    <img src="https://w0.peakpx.com/wallpaper/260/63/HD-wallpaper-iron-man-avengers-ironman-marvel.jpg" alt="Iron Man wearing his red and gold armor" height="350" width="400"><br/>
 
-    <button title="Explore Marvel" tabindex="3" accesskey="l">Explore Marvel</button>
-    <br/> 
-</body>
+    <h1>Marvel Hereos</h1>
+<div class="heroes">
+    <div class="hero">
+        <img src="https://w0.peakpx.com/wallpaper/260/63/HD-wallpaper-iron-man-avengers-ironman-marvel.jpg"
+             alt="Iron Man">
+        <p><b>Iron Man</b></p>
+        <span><strong>Iron Man</strong> is the superhero alter ego of billionaire genius and engineer Tony Stark, who uses high-tech armor to protect the world.</span>
+    </div>
+
+    <div class="heroes">
+    <div class="hero">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcCYGlxTvnLlhedQFQ8ngk4qaOuTchaAJTGPY9WSP85_jumFgRMLJn53WU&s=10"
+             alt="Captain America">
+        <p><b>Captain America</b></p>
+        <span><strong>Captain America</strong> Captain America's story follows Steve Rogers, a frail young man transformed by a secret super-soldier serum into a peak-human hero who fights in World War II and wakes up decades later in the modern world.</span>
+    </div>
+
+    <div class="hero">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYV3_Qkn8HAMWEmq6NbpAeJsQIfAkbFCFhlsqEG-5Srg&s=10"
+             alt="Thor">
+        <p><b>Thor</b></p>
+        <span><strong>Thor</strong> is the Asgardian god of thunder and a powerful protector of Earth.</span>
+    </div>
+    <div class="hero">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThV0mxYgxYPowtGGj8SooZ-kCD_JAK9jXt8L-usMt9LQ&s=10"
+             alt="Deadpool">
+        <p><b>Deadpool</b></p>
+        <span><strong>Deadpool</strong> is a popular Marvel Comics antihero known for his talkative humor, fourth-wall breaking, and rapid healing powers.</span>
+    </div>
+
+    <div class="hero">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0MNm7zWARbZPyYALq2mvzdW2viSs8wEbqoFSihEvSDw&s=10"
+             alt="Spider-Man">
+        <p><b>Spider-Man</b></p>
+        <span><strong>Spider-Man</strong> story follows Peter Parker, an orphaned high school teenager from Queens, New York, who gains spider-like superpowers after being bitten by a radioactive spider </span>
+    </div>
+</div>
 </html>
